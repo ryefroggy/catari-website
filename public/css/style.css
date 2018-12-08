@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+
+#logo {
+  height: 60px;
+}
+
+.navbar {
+  background-color: darkorange;
+  justify-content: flex-start;
+}
+
+#download {
+  background: darkorange;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  padding: 10px 40px;
+  font-weight: bold;
+}
