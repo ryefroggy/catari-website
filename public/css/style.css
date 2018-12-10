@@ -177,3 +177,11 @@ a:hover {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.small {
+  height: 60px;
+}
+
+#design-button {
+  margin-bottom: 50px;
+}
