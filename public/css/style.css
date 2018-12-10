@@ -2,6 +2,10 @@
   height: 60px;
 }
 
+body {
+  text-align: center;
+}
+
 .navbar {
   background-color: darkorange;
   justify-content: flex-start;
@@ -96,4 +100,52 @@ h2 {
   top: 30%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+#hellcat-logo {
+  margin-top: 50px;
+  height: 100px;
+}
+
+#manual-top *{
+  display: inline-block;
+}
+
+.hellcat-btn {
+  background: darkorange;
+  color: white;
+  margin-left: 80px;
+  margin-top: -10px;
+}
+
+#manual {
+  text-align: left;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.image {
+  display: inline-block;
+  width: 30%;
+}
+
+.image > * {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  width: 65%;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
