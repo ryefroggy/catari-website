@@ -120,6 +120,7 @@ h2 {
 
 #manual {
   text-align: left;
+  padding-bottom: 40px;
 }
 
 a:hover {
@@ -142,10 +143,29 @@ a:hover {
   display: inline-block;
 }
 
-.left {
-  float: left;
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
-.right {
-  float: right;
+#manual h4 {
+  padding-top: 30px;
+}
+
+#manual h5 {
+  font-weight: 500;
+}
+
+.sprite {
+  height: 100px;
+  width: auto;
+}
+
+.large-text {
+  width: 80%;
+}
+
+.small-image {
+  width: 15%;
 }
