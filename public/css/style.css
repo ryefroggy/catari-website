@@ -71,3 +71,7 @@ h2 {
   text-align: center;
   flex-wrap: wrap;
 }
+
+#john img {
+  transform: rotate(180deg);
+}
