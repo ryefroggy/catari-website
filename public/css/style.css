@@ -169,3 +169,11 @@ a:hover {
 .small-image {
   width: 15%;
 }
+
+#homepage {
+  background-image: url('../assets/screenshot.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
